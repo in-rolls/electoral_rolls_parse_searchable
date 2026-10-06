@@ -2,11 +2,11 @@
 
 The repository provides scripts for parsing searchable Indian Electoral Roll pdfs and links to the data along with a summary of the issues and some summary statistics for each state.
 
-* [Data](https://github.com/in-rolls/parse_searchable_rolls#data)
-* [Scripts](https://github.com/in-rolls/parse_searchable_rolls#scripts)
-* [Tests](https://github.com/in-rolls/parse_searchable_rolls#tests)
+* [Data](https://github.com/in-rolls/electoral_rolls_parse_searchable#data)
+* [Scripts](https://github.com/in-rolls/electoral_rolls_parse_searchable#scripts)
+* [Tests](https://github.com/in-rolls/electoral_rolls_parse_searchable#tests)
 
-Scripts for parsing unsearchable electoral rolls are posted [here](https://github.com/in-rolls/parse_unsearchable_rolls).
+Scripts for parsing unsearchable electoral rolls are posted [here](https://github.com/in-rolls/electoral_rolls_parse_unsearchable).
 
 -------
 
@@ -84,7 +84,7 @@ To verify that the electoral rolls have been parsed correctly, we institute a fe
 
 #### Future Tests
 
-1. For 18 of the 34 states on which we have data, we scraped metadata about polling stations. For instance, https://github.com/in-rolls/electoral_rolls/tree/master/kerala has a CSV that captures the metadata from the website. Some of the columns we parse can be checked against that. Addition data from https://github.com/in-rolls/poll-station-metadata can potentially also be used.
+1. For 18 of the 34 states on which we have data, we scraped metadata about polling stations. For instance, https://github.com/in-rolls/electoral_rolls/tree/master/kerala has a CSV that captures the metadata from the website. Some of the columns we parse can be checked against that. Addition data from https://github.com/in-rolls/polling_stations_metadata can potentially also be used.
 
 2. The electoral rolls have some totals within them. We scrape those. For instance, the total number of women, men, etc. And we can re-derive those numbers from the scraped columns. We check for that.
 
@@ -135,7 +135,7 @@ The scripts are released under the [MIT License](https://opensource.org/licenses
 ## 🔗 Adjacent Repositories
 
 - [in-rolls/electoral_rolls](https://github.com/in-rolls/electoral_rolls) — PDFs of Indian Electoral Rolls
-- [in-rolls/elector_count](https://github.com/in-rolls/elector_count) — Estimate the total number of electors in a state by counting the number of pages in all the electoral rolls
-- [in-rolls/google_vision_ocr](https://github.com/in-rolls/google_vision_ocr) — Using Google Vision API to Get Text From (Unreadable) Electoral Rolls
-- [in-rolls/parse_unsearchable_rolls](https://github.com/in-rolls/parse_unsearchable_rolls) — Parse Unsearchable Electoral Rolls
+- [in-rolls/electoral_rolls_elector_count](https://github.com/in-rolls/electoral_rolls_elector_count) — Estimate the total number of electors in a state by counting the number of pages in all the electoral rolls
+- [in-rolls/electoral_rolls_ocr_google_vision](https://github.com/in-rolls/electoral_rolls_ocr_google_vision) — Using Google Vision API to Get Text From (Unreadable) Electoral Rolls
+- [in-rolls/electoral_rolls_parse_unsearchable](https://github.com/in-rolls/electoral_rolls_parse_unsearchable) — Parse Unsearchable Electoral Rolls
 - [in-rolls/local_elections_kerala](https://github.com/in-rolls/local_elections_kerala) — Kerala Local Government Seat Reservation Data and Winner Attributes
